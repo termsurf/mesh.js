@@ -92,10 +92,6 @@ function getProxyUri({
     proxy = `${protocol}//${proxy}`
   }
 
-  if (typeof proxy !== 'string') {
-    return proxy
-  }
-
   try {
     return new URL(proxy)
   } catch (err) {

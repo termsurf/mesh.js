@@ -1,6 +1,6 @@
 import Kink from '@termsurf/kink'
 
-const host = '@termsurf/deck'
+const host = '@termsurf/mesh'
 
 type Base = {
   abort_error: {
